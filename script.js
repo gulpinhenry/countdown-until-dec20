@@ -1,5 +1,5 @@
 
-const dec20 = new Date(2021, 11, 20).getTime();
+const dec20 = new Date(2022, 2, 12).getTime();
 const month = new Date().getMonth();
 const ashley = new Audio("./files/ashleyaudio.mp3");
 let timer = setInterval(function() {
