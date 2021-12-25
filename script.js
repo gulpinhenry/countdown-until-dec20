@@ -1,5 +1,5 @@
 
-const dec20 = new Date(2022, 2, 12).getTime();
+const goal = new Date(2022, 2, 12).getTime();
 const month = new Date().getMonth();
 const ashley = new Audio("./files/ashleyaudio.mp3");
 let timer = setInterval(function() {
@@ -7,7 +7,7 @@ let timer = setInterval(function() {
   const today = new Date().getTime();
 
   let diff;
-  diff = dec20 - today;
+  diff = goal - today;
 
   let days = Math.floor(diff / (1000 * 60 * 60 * 24));
   let hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
