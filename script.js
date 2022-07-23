@@ -1,10 +1,12 @@
 
-const goal = new Date(2022, 26, 8).getTime();
+const goal = new Date("2022-08-26").getTime();
 const month = new Date().getMonth();
 const ashley = new Audio("./files/ashleyaudio.mp3");
+
 let timer = setInterval(function() {
 
   const today = new Date().getTime();
+  
 
   let diff;
   diff = goal - today;
