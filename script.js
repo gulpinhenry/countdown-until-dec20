@@ -1,5 +1,5 @@
 
-const goal = new Date(2022, 2, 12).getTime();
+const goal = new Date(2022, 26, 8).getTime();
 const month = new Date().getMonth();
 const ashley = new Audio("./files/ashleyaudio.mp3");
 let timer = setInterval(function() {
